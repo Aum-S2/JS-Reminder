@@ -18,3 +18,12 @@ console.log(interestRate);
 
 // use const if you dont need to reassign
 // use let if you need to reassign 
+
+
+// Primitives/Value Types - Reference Types (string/number/boolean/undefined/null)
+
+let name2 = 'Panda Nawari'; // String Literal
+let age = 11; // Number Literal
+let itApproved = true; // Boolean Literal (true or false)
+let firstName2 = undefined;
+let selectedColor = null; // means nothing (zero)
