@@ -20,10 +20,26 @@ console.log(interestRate);
 // use let if you need to reassign 
 
 
-// Primitives/Value Types - Reference Types (string/number/boolean/undefined/null)
+// Primitives/Value Types (string/number/boolean/undefined/null)
 
 let name2 = 'Panda Nawari'; // String Literal
 let age = 11; // Number Literal
 let itApproved = true; // Boolean Literal (true or false)
 let firstName2 = undefined;
 let selectedColor = null; // means nothing (zero)
+
+// Reference Types
+
+let person = {
+  name: 'panda',
+  age: 34
+};
+
+// Dot Notation
+person.name = 'samuri';
+
+// Bracket Notation
+let target = 'name';
+person[target] = 'balu';
+
+console.log(person);
