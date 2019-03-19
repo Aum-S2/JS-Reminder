@@ -59,3 +59,17 @@ function greet (name, lastName){
 }
 
 greet ('Flicki', 'Chu');
+
+// Types of Functions
+
+// Performing Tasks
+function greet (name, lastName){
+  console.log('Hello ' + name + ' ' + lastName);
+}
+
+// Calculating a Value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(3));
