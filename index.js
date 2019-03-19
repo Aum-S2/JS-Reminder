@@ -43,3 +43,11 @@ let target = 'name';
 person[target] = 'balu';
 
 console.log(person);
+
+// Array 
+let selectedColors = ['green','red'];
+selectedColors[2] = 44;
+console.log(selectedColors.length);
+
+//array is an object 
+// javascript can store different types in an array
