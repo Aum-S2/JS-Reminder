@@ -51,3 +51,11 @@ console.log(selectedColors.length);
 
 //array is an object 
 // javascript can store different types in an array
+
+// Function
+
+function greet (name, lastName){
+  console.log('Hello ' + name + ' ' + lastName);
+}
+
+greet ('Flicki', 'Chu');
